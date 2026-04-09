@@ -30,4 +30,4 @@ jobs:
           pip install pytest
 
       - name: 테스트 실행
-        run: pytest
+        run: python -m pytest -v test_calc.py
