@@ -12,13 +12,13 @@ jobs:
 
     steps:
       - name: 저장소 코드 가져오기
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
     
       - name: 메세지 출력
         run: echo "Hello, World! And Githubactions is awesome! This is my first workflow."
     
       - name: 현재 디렉터리 확인
         run: pwd
-        
+
       - name: 파일 목록 확인
         run: ls -al
