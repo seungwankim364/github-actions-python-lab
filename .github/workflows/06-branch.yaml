@@ -3,8 +3,8 @@ name: 06 Branch Workflow
 on:
   push:
     branches:
-      - 'main'
-      - 'dev'
+      - '!main'
+      - '!dev'
 
 jobs:
   branch-check:
